@@ -72,3 +72,37 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.information-content {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.info-head {
+    display: flex;
+    justify-content: center;
+}
+
+.picture {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #1F2937;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 52px;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 200px;
+}

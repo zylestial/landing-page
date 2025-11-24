@@ -111,7 +111,7 @@ a {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     padding: 70px;
 }
 
@@ -121,9 +121,4 @@ a {
     font-weight: 300;
     text-align: center;
     font-style: italic;
-}
-
-.quote {
-    display: flex;
-    align-items: flex-end;
 }

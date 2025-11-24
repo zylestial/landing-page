@@ -124,10 +124,13 @@ a {
 }
 
 .cta {
+    background-color: #3882f6;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
+    margin: 100px 300px;
+    border-radius: 10px;
 }
 
 .cta-text {

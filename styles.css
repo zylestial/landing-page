@@ -34,3 +34,41 @@ a {
 .header, .hero-content, .footer {
     background-color: #1F2937;
 }
+
+.hero-content {
+    display: flex;
+    padding: 30px;
+}
+
+.hero-heading {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0;
+    padding: 0;
+}
+
+.sign-up {
+    font-size: larger;
+    padding: 5px 10px 5px 10px;
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.hero-picture {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: #eeeeee;
+    width: 300px;
+    height: 200px;
+    flex-shrink: 0;
+}
+
+.hero-second, .nav-links{
+    font-size: 18px;
+    color: #E5E7EB;
+}

@@ -151,3 +151,10 @@ a {
     font-size: larger;
     padding: 5px 10px;
 }
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}

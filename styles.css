@@ -122,3 +122,32 @@ a {
     text-align: center;
     font-style: italic;
 }
+
+.cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.cta-text {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+}
+
+.cta-button {
+    margin-top: 10px;
+}
+
+.cta-click {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    font-size: larger;
+    padding: 5px 10px 5px 10px;
+}
